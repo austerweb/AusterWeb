@@ -16,6 +16,7 @@ services:
       - ./679inn.html:/app/679inn.html:ro
       - ./nutrainer.html:/app/nutrainer.html:ro
       - ./proyectar-ideas.html:/app/proyectar-ideas.html:ro
+      - ./cemsa.html:/app/cemsa.html:ro
       - ./favicon.svg:/app/favicon.svg:ro
       - ./favicon-simple.svg:/app/favicon-simple.svg:ro
       - ./styles.css:/app/styles.css:ro

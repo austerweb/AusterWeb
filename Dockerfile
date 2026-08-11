@@ -16,6 +16,7 @@ COPY gv-austral.html .
 COPY 679inn.html .
 COPY nutrainer.html .
 COPY proyectar-ideas.html .
+COPY cemsa.html .
 COPY favicon.svg .
 COPY favicon-simple.svg .
 COPY styles.css .
