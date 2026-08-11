@@ -15,6 +15,7 @@ services:
       - ./gv-austral.html:/app/gv-austral.html:ro
       - ./679inn.html:/app/679inn.html:ro
       - ./nutrainer.html:/app/nutrainer.html:ro
+      - ./proyectar-ideas.html:/app/proyectar-ideas.html:ro
       - ./favicon.svg:/app/favicon.svg:ro
       - ./favicon-simple.svg:/app/favicon-simple.svg:ro
       - ./styles.css:/app/styles.css:ro
