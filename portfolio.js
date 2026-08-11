@@ -22,7 +22,7 @@ window.PortfolioPage = (function() {
             ],
             technologies: ['HTML', 'CSS', 'React', 'JS', 'PostgreSQL'],
             url: 'https://679inn.com.ar/',
-            duration: '1 semana',
+            duration: 'Publicado',
             year: '2025'
         },
         'proyectar': {
@@ -42,7 +42,7 @@ window.PortfolioPage = (function() {
             ],
             technologies: ['HTML', 'CSS', 'React', 'TutorLMSPro'],
             url: 'https://proyectarideas.com.ar/',
-            duration: '2 semanas',
+            duration: 'Publicado',
             year: '2025'
         },
         'nutrainer': {
@@ -64,26 +64,7 @@ window.PortfolioPage = (function() {
             ],
             technologies: ['E-commerce', 'HTML', 'CSS', 'React'],
             url: 'https://nutrainer.com.ar/',
-            duration: '2 semanas',
-            year: '2025'
-        },
-        'notarial': {
-            title: 'Sistema Notarial - Escribanía Szymanski',
-            category: 'Sistema Empresarial',
-            description: 'Solución integral para la gestión completa de escribanías y notarías. Digitaliza documentos, actas y escrituras con control automático de vencimientos y certificaciones.',
-            features: [
-                'Gestión de clientes físicos y jurídicos',
-                'Control de trámites y certificaciones',
-                'Alertas automáticas de vencimientos',
-                'Generación de documentos y PDF',
-                'Autocompletado inteligente de datos',
-                'Presupuestos y seguimiento de pagos',
-                'Panel de administración completo'
-            ],
-            technologies: ['React', 'Node.js', 'PostgreSQL', 'PDF'],
-            url: 'sistema-notarial.html',
-            urlLabel: 'Ver más detalles',
-            duration: 'En producción',
+            duration: 'Publicado',
             year: '2025'
         },
         'odontologica': {
@@ -99,27 +80,9 @@ window.PortfolioPage = (function() {
                 'Reportes y estadísticas del consultorio'
             ],
             technologies: ['React', 'Node.js', 'PostgreSQL', 'WhatsApp'],
-            url: 'agenda-odontologica.html',
-            urlLabel: 'Ver más detalles',
-            duration: 'En producción',
-            year: '2025'
-        },
-        'gestor': {
-            title: 'Gestor de Departamentos',
-            category: 'Sistema Empresarial',
-            description: 'Administración integral de propiedades con control de inquilinos, reservas, disponibilidad y reportes financieros.',
-            features: [
-                'Gestión de propiedades y unidades',
-                'Control de inquilinos y ocupaciones',
-                'Sistema de reservas y disponibilidad',
-                'Reportes financieros y ocupación',
-                'Seguimiento de pagos y contratos',
-                'Panel administrativo centralizado'
-            ],
-            technologies: ['React', 'Node.js', 'PostgreSQL', 'Reservas'],
-            url: 'gestor-departamentos.html',
-            urlLabel: 'Ver más detalles',
-            duration: 'En producción',
+            url: 'https://austerdental.com.ar/',
+            urlLabel: 'Ver Sitio Web',
+            duration: 'Publicado',
             year: '2025'
         },
 
@@ -158,7 +121,7 @@ window.PortfolioPage = (function() {
             
             <div class="modal-info">
                 <div class="modal-info-item">
-                    <strong>Duración:</strong> ${project.duration}
+                    <strong>Estado:</strong> ${project.duration}
                 </div>
                 <div class="modal-info-item">
                     <strong>Año:</strong> ${project.year}
