@@ -13,6 +13,8 @@ services:
       - ./gestor-departamentos.html:/app/gestor-departamentos.html:ro
       - ./agenda-odontologica.html:/app/agenda-odontologica.html:ro
       - ./gv-austral.html:/app/gv-austral.html:ro
+      - ./679inn.html:/app/679inn.html:ro
+      - ./nutrainer.html:/app/nutrainer.html:ro
       - ./favicon.svg:/app/favicon.svg:ro
       - ./favicon-simple.svg:/app/favicon-simple.svg:ro
       - ./styles.css:/app/styles.css:ro
