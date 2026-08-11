@@ -85,6 +85,23 @@ window.PortfolioPage = (function() {
             duration: 'Publicado',
             year: '2025'
         },
+        'gvaustral': {
+            title: 'G&V Austral - Consultora Estratégica',
+            category: 'Sitio Web Corporativo',
+            description: 'Sitio web corporativo para consultora estratégica integral. Diseño moderno con foco en arquitectura estratégica, operaciones y datos.',
+            features: [
+                'Diseño corporativo alineado a la marca',
+                'Secciones de servicios, metodología y equipo',
+                'Páginas de proveedores y sumate',
+                'Experiencia responsive',
+                'Orientado a conversión y contacto'
+            ],
+            technologies: ['HTML', 'CSS', 'JavaScript', 'Responsive'],
+            url: 'https://gvaustral.com.ar/',
+            urlLabel: 'Ver Sitio Web',
+            duration: 'Publicado',
+            year: '2025'
+        },
 
     };
 
